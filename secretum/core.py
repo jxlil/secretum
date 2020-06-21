@@ -46,6 +46,8 @@ class secretum:
         except PyperclipException:
             print("[!] Could not copy password to your clipboard.")
             print(f"Password: {password}")
+        except Exception:
+            print(f"Password: {password}")
 
     def main(self):
         master_password = self.get_master_password()
