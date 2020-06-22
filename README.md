@@ -45,6 +45,15 @@ $ secretum -k key.txt --login gmail
 # 5c5b1433e509752827cc015efb752912c0a271790baddd6759e8c9c713688989
 ```
 
+---
 
+## Author
+
+**Jalil SA**
+
+Do you want to support this project? You can send a **pull request**, write an **issue** or just **buy me a coffee**!
+
+
+<a href="https://www.buymeacoffee.com/jxlil" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg"></a>
 
 
