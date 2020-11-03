@@ -23,12 +23,14 @@ setup(
     version=__version__,
     description="Complex password generator",
     long_description=long_description,
-    author="@xjalil_",
-    url="https://github.com/x-jalil/secretum",
+    author="Jalil SA",
+    url="https://github.com/jxlil/secretum",
     packages=find_packages(),
     scripts=["bin/secretum"],
     install_requires=read_requirements(),
     license="MIT",
-    classifiers=["Programming Language :: Python :: 3", "Environment :: Console",],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Environment :: Console",
+    ],
 )
-

@@ -1,15 +1,10 @@
- 
-<p align="center">
-  <img  width="100" height="100" src="logo/llave.svg" />
-</p>
-
 # secretum
 Complex password generator
 
 ## Install
 
 ```
-pip3 install git+https://github.com/x-jalil/secretum.git --user
+python3.8 -m pip install git+https://github.com/jxlil/secretum.git --user
 ```
 
 ## Usage
@@ -31,10 +26,10 @@ optional arguments:
 ## Example
 ```bash
 # any file can be used as a keyfile
-$ secretum -k photo.jpg --login gmail
+$ secretum -k photo.jpg --login example@domain.com
 
 # or you can use a keyword
-$ secretum -k blueeyes --login gmail
+$ secretum -k blueeyes --login example@domain.com
 ```
 
 **Warning:**
@@ -50,14 +45,4 @@ $ secretum -k key.txt --login gmail
 ```
 
 ---
-
-## Author
-
-**Jalil SA**
-
-Do you want to support this project? You can send a **pull request**, write an **issue** or just **buy me a coffee**!
-
-
-<a href="https://www.buymeacoffee.com/jxlil" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg"></a>
-
 
